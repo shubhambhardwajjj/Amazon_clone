@@ -1,0 +1,34 @@
+.basket_item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+
+  width: 40vw;
+}
+.basket_image {
+  width: auto;
+  height: auto;
+}
+
+.basket_image > img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: contain;
+}
+
+.basket_info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.basket_info > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  width: 15vw;
+}

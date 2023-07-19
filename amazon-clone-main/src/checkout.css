@@ -1,0 +1,28 @@
+.checkout {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  background: white;
+}
+
+.checkout_left {
+  width: 70vw;
+}
+.checkout_ad {
+  width: 70vw;
+  height: 200px;
+}
+.checkout_ad_image {
+  width: 100%;
+  height: 200px;
+}
+.checkout_right {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}

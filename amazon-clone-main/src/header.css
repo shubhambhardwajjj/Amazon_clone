@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  height: 60px;
+  background-color: black;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  height: 50px;
+  width: 200px;
+  object-fit: contain;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.header-search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.header-input {
+  height: 30px;
+  width: 100%;
+}
+
+.search-btn {
+  height: 37px;
+  width: 40px;
+  background-color: #cd9042;
+}
+.header-nav {
+  display: flex;
+  margin-top: 10px;
+}
+.header-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header-option-first {
+  font-size: 15px;
+}
+
+.header-option-second {
+  margin-top: 1px;
+  font-size: 17px;
+  font-weight: 800;
+}
